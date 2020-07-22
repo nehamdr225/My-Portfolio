@@ -36,8 +36,8 @@
   text-align: start;
 }
 .avatar_holder {
-  height: 60%;
-  width: 55%;
+  height: 70%;
+  width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,79 +58,8 @@
   background-size: cover;
   background-position: center;
   height: 200px;
-  width: 260px;
+  width: 200px;
   border-radius: 100%;
   background-color: rebeccapurple;
 }
 
-.button_container {
-  text-align: center;
-  margin-top: 10px;
-}
-.button {
-  border: 1px solid #453496;
-  font-size: 18px;
-  background: none;
-  font-family: "Halant", serif;
-  font-weight: 500;
-  cursor: pointer;
-  margin: 10px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.8s;
-}
-
-.btn1 {
-  width: 100px;
-  height: 40px;
-  color: aliceblue;
-  background-color: #453496 !important;
-}
-.btn1:hover {
-  color: #453496;
-  background-color: aliceblue !important;
-}
-
-.btn2 {
-  width: 150px;
-  height: 40px;
-  color: #453496;
-  background-color: aliceblue !important;
-}
-.btn2:hover {
-  color: aliceblue;
-  background-color: #453496 !important;
-} /* filter rules containing this property */
-
-
-.button::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 0%;
-  background: #453496;
-  z-index: 1;
-  transition: 0.8s;
-}
-
-.btn1::before {
-  content: "Hire Me";
-  margin-top: 4px;
-  top: 0;
-  border-radius: 0 0 50% 50%;
-  height: 180%;
-}
-
-.btn1:hover::before {
-  height: 0%;
-}
-.btn2::before {
-  content: 'See my Work';
-  margin: 2px;
-  bottom: 0;
-  border-radius: 50% 50% 0 0;
-}
-.btn2:hover::before {
-  height: 80%;
-}

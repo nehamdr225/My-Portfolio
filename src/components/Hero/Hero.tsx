@@ -1,14 +1,15 @@
 import React from "react";
 import "./Hero.css";
-import "../Button/button.tsx"
-import Button from "../Button/button";
+import "../HeroButton/button.tsx"
+import Button from "../HeroButton/button";
 import NavBar from "../NavBar/NavBar";
 
 function Hero() {
   return (
     <div className="Hero">
+      <NavBar/>
       <div className="container">
-        <NavBar/>
+        
         <div className="avatar_holder">
           <div className="avatar"></div>
           <div className="avatar_title">
